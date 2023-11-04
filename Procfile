@@ -1,1 +1,1 @@
-web: gunicorn src.CryptoAlerts.wsgi:application
+web: gunicorn --pythonpath src CryptoAlerts.wsgi:application
