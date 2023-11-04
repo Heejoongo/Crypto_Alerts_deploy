@@ -1,1 +1,1 @@
-web: gunicorn CryptoAlerts.wsgi
+web: gunicorn src.CryptoAlerts.wsgi
